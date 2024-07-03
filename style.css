@@ -75,11 +75,13 @@ a:active {
 #Tgoal {
     border-left: 4px solid #2c3e50;
     border-right: 4px solid #2c3e50;
+    background-color: #6b9da342;
 }
 
 #Texp{
     border-left: 4px solid #2c3e50;
     border-right: 4px solid #2c3e50;
+    background-color: #6b9da342;
 }
 
 /* Experiência */
@@ -97,6 +99,7 @@ a:active {
 #Tedu{
     border-left: 4px solid #2c3e50;
     border-right: 4px solid #2c3e50;
+    background-color: #6b9da342;
     
 }
 
@@ -115,6 +118,7 @@ a:active {
     border-left: 4px solid #2c3e50;
     border-bottom: 4px solid #2c3e50;
     border-right: 4px solid #2c3e50;
+    background-color: #6b9da342;
 }
 
 /* Habilidades */
