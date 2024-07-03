@@ -1,0 +1,144 @@
+/* Geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Cabeçalho */
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px solid #34495e;
+}
+
+header #name {
+    margin: 0;
+    flex: 1;
+    text-align: center;
+}
+
+header #occupation, header #information {
+    flex: 1;
+    font-size: 0.9em;
+    margin: 0 10px;
+}
+
+header #occupation {
+    align-items: left;
+    text-align: left;
+}
+
+header #information {
+    text-align: right;
+}
+
+/* Seções */
+h2 {
+    background: #34495e;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    border-bottom: 2px solid #2c3e50;
+    text-align: center;
+}
+
+div {
+    padding: 20px;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: gray; /* Cor do link visitado */
+}
+
+a:hover {
+    color: white; /* Cor do link ao passar o mouse */
+}
+
+a:active {
+    color: gray; /* Cor do link quando clicado */
+}
+
+/* Objetivo */
+#Tgoal {
+    border-left: 4px solid #2c3e50;
+    border-right: 4px solid #2c3e50;
+}
+
+#Texp{
+    border-left: 4px solid #2c3e50;
+    border-right: 4px solid #2c3e50;
+}
+
+/* Experiência */
+#Texp h3 {
+    margin: 5px 0;
+    font-size: 1.1em;
+    color: #2c3e50;
+
+}
+
+#Texp p {
+    margin: 5px 0;
+}
+
+#Tedu{
+    border-left: 4px solid #2c3e50;
+    border-right: 4px solid #2c3e50;
+    
+}
+
+/* Educação */
+#Tedu h3 {
+    margin: 5px 0;
+    font-size: 1.1em;
+    color: #2c3e50;
+}
+
+#Tedu p {
+    margin: 5px 0;
+}
+
+#Tskills{
+    border-left: 4px solid #2c3e50;
+    border-bottom: 4px solid #2c3e50;
+    border-right: 4px solid #2c3e50;
+}
+
+/* Habilidades */
+#Tskills b {
+    color: #2c3e50;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 20px 0;
+}
+
+/* Layout Responsivo */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header #occupation, header #name, header #information {
+        max-width: 100%;
+        text-align: center;
+        margin: 5px 0;
+    }
+}
